@@ -7,6 +7,8 @@ type("development") # The default type, can be: appstore, adhoc, enterprise or d
 app_identifier(["ua.edu.ukma.Borovik.CatsViewer"])
 username("Nikita.borovik@ukma.edu.ua") # Your Apple Developer Portal username
 
+ENV["MATCH_PASSWORD"] = "[PASSWORD]"
+
 # For all available options run `fastlane match --help`
 # Remove the # in the beginning of the line to enable the other options
 
